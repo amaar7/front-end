@@ -7,7 +7,7 @@ const SearchForm = ({ handleSubmit, text, setText }) => {
         type="text"
         name="search"
         id="search"
-        placeholder="Search for a dog / breed"
+        placeholder="Search for a dog breed"
         className="search-input"
         value={text}
         onChange={(e) => setText(e.target.value)}
