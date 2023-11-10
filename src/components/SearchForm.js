@@ -17,3 +17,4 @@ const SearchForm = ({ handleSubmit, text, setText }) => {
 };
 
 export default SearchForm;
+
