@@ -16,6 +16,3 @@ const DogCard = ({ dog }) => (
 );
 
 export default DogCard;
-
-
-

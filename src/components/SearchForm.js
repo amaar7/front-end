@@ -2,11 +2,7 @@ import React from "react";
 
 const SearchForm = ({ handleSubmit, text, setText }) => {
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="max-w-xl mx-auto"
-      autoComplete="off"
-    >
+    <form onSubmit={handleSubmit} className="max-w-xl mx-auto" autoComplete="off">
       <input
         type="text"
         name="search"
@@ -20,7 +16,4 @@ const SearchForm = ({ handleSubmit, text, setText }) => {
   );
 };
 
-export default SearchForm
-
-
-
+export default SearchForm;
